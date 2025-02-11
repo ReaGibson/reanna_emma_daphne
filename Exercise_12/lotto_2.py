@@ -6,7 +6,7 @@ lottery_numbers = set()
 # Create a while loop for as long as the length of the lottery numbers are less than 6
 while len(lottery_numbers) < 6:
 # used add method to add numbers into the set between 1-50, also used method from random module which is random integer to get random numbers
- lottery_numbers.add(random.randint(1, 50))
+   lottery_numbers.add(random.randint(1, 50))
 # generate any number between 1 and 50
 # Display the sorted numbers
 # sorted function will display the numbers in numerical order

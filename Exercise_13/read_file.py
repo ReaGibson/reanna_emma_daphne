@@ -1,7 +1,6 @@
-# open function to read the pelican text, r stands for read
-output = open('pelican.txt', 'r')
-# open function to read the pelican text and then using read method to read it
-poem = open('pelican.txt').read()
+
+# open function to read the pelican text and then using read method to read it. r is the mode and stands for read. t stands for text
+poem = open('pelican.txt', 'rt').read()
 # used f string to print whole poem which has been printed underneath on a new line with \n
 print(f"Whole poem:\n{poem}")
 # data type is a string

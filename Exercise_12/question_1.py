@@ -12,7 +12,10 @@ print(cheese)
 cheese = ['Cheddar', 'Stilton', 'Cornish Yarg']
 cheese += ['Oke']
 print(cheese)
+#You can only add one item
+cheese.append('oke')
+print(cheese)
 
-# to add two new cheeses to the list with a single command, used extend method
+# to add two new cheeses to the list with a single command, used extend method. Allows you to add more than one thing
 cheese.extend(['Mozzarella', 'Red Leicester'])
 print(cheese)
